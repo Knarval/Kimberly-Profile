@@ -5,134 +5,86 @@
 }
 
 body {
-    font-family: "Segoe UI", sans-serif;
-    background: #eef2f7;
-    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
     color: #333;
 }
 
-/* MAIN CONTAINER */
+/* CONTAINER */
 .container {
-    max-width: 1050px;
+    width: 85%;
+    max-width: 1000px;
     margin: auto;
     background: white;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 10px;
 }
 
-/* HERO */
+/* HEADER */
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
-.hero-text {
-    flex: 1;
+/* TEXT */
+.hero-text h1 {
+    color: #800020;
+    font-size: 36px;
 }
 
-h1 {
-    font-size: 40px;
-    color: #7b1128;
+.hero-text h2 {
+    color: #444;
+    font-weight: normal;
 }
 
-h2 {
-    color: #555;
-    font-weight: 500;
-}
-
-.tagline {
-    color: #7b1128;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
-.intro {
-    color: #555;
-    margin-top: 10px;
-}
-
-/* PROFILE IMAGE */
+/* IMAGE (FIXED SMALL SIZE) */
 .profile img {
-    width: 210px;
-    height: 210px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #7b1128;
+    border: 3px solid #800020;
 }
 
-/* SECTIONS */
-section {
-    margin-bottom: 30px;
-}
-
+/* SECTION TITLE */
 h3 {
-    color: #7b1128;
-    border-left: 5px solid #7b1128;
-    padding-left: 10px;
-    margin-bottom: 15px;
+    color: #800020;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 5px;
+    margin-top: 20px;
 }
 
-/* GRID */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 12px;
-}
-
-.grid div {
-    background: #f8f9fb;
-    padding: 12px;
-    border-radius: 8px;
-}
-
-/* CARDS */
-.card {
-    background: #f8f9fb;
-    padding: 12px;
-    margin-bottom: 10px;
-    border-left: 4px solid #7b1128;
-    border-radius: 8px;
-}
-
-/* SKILLS */
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.skills span {
-    background: #7b1128;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 13px;
+/* LIST */
+ul {
+    line-height: 1.8;
+    margin-left: 20px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     margin-top: 20px;
-    color: #777;
+    padding: 15px;
+    color: gray;
 }
 
-/* RESPONSIVE */
+/* MOBILE */
 @media (max-width: 768px) {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
+        gap: 15px;
     }
 
-    h1 {
-        font-size: 30px;
+    .hero-text h1 {
+        font-size: 28px;
     }
 
     .profile img {
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 120px;
     }
 }
