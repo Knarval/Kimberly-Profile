@@ -1,90 +1,76 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    font-family: "Times New Roman", serif;
+    background: #f2f2f2;
+    margin: 0;
     padding: 20px;
-    color: #333;
 }
 
-/* CONTAINER */
-.container {
-    width: 85%;
-    max-width: 1000px;
+/* CV CONTAINER */
+.cv {
+    width: 800px;
     margin: auto;
     background: white;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 40px;
+    border: 1px solid #ccc;
 }
 
 /* HEADER */
-.hero {
+.cv-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
+    gap: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* PHOTO */
+.cv-photo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+/* NAME */
+.cv-info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cv-info p {
+    margin: 3px 0;
+}
+
+/* SECTION TITLES */
+h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
 }
 
 /* TEXT */
-.hero-text h1 {
-    color: #800020;
-    font-size: 36px;
-}
-
-.hero-text h2 {
-    color: #444;
-    font-weight: normal;
-}
-
-/* IMAGE (FIXED SMALL SIZE) */
-.profile img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #800020;
-}
-
-/* SECTION TITLE */
-h3 {
-    color: #800020;
-    border-bottom: 2px solid #800020;
-    padding-bottom: 5px;
-    margin-top: 20px;
+p {
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 /* LIST */
 ul {
-    line-height: 1.8;
-    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+/* ROW */
+.row p {
+    margin: 4px 0;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     margin-top: 20px;
-    padding: 15px;
-    color: gray;
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .hero-text h1 {
-        font-size: 28px;
-    }
-
-    .profile img {
-        width: 120px;
-        height: 120px;
-    }
+    font-size: 12px;
 }
