@@ -1,73 +1,51 @@
-# Kimberly-Profile
-# AI-Powered Personal Profile Website
+👩‍💻 Project Title
 
-## 📖 About the Project
-This project is a personal profile website created using HTML, CSS, and GitHub Pages.  
-It showcases my CV information including personal details, education, academic experience, certifications, and skills.  
-The website was enhanced using AI tools to improve content structure and presentation.
+Personal Profile Website using HTML, CSS, Git, and GitHub Pages
 
----
+📖 Project Description
 
-## 👩‍🎓 Author
-**Kimberly S. Narval**  
-Bachelor of Science in Computer Science  
-Don Mariano Marcos Memorial State University (DMMMSU)
+This project is a personal profile website created using web development tools and version control system (Git). It showcases personal information, skills, education, and contact details. The project is developed using HTML and CSS, and managed using Git (.git version control). It is hosted and published using GitHub Pages.
 
----
+🎯 Objective
 
-## 🌐 Website Features
-- Personal Information Section
-- Educational Background
-- Academic Experience (OJT & Leadership Roles)
-- Certifications & Trainings
-- Skills Overview
-- Responsive and Clean Design
+To create a personal profile website using any AI tools or programming language and apply:
 
----
+Git version control (.git)
+GitHub repository management
+GitHub Pages hosting
+🛠️ Tools & Technologies Used
+HTML5 (Structure)
+CSS3 (Design & Styling)
+Git (Version Control System)
+GitHub (Repository Hosting)
+GitHub Pages (Website Hosting)
+AI Assistance (for code generation and design support)
+📂 Project Structure
+Kimberly-Profile/
+│
+├── index.html        # Main webpage
+├── style.css         # Design and layout
+├── kim.png           # Profile picture
+└── README.md         # Project documentation
+🌐 Website Features
+Personal introduction section
+Skills and abilities display
+Educational background
+Contact information
+Clean and simple responsive layout
+🔧 Git Version Control Process Used
 
-## 🧠 Academic Experience Included
-- Provincial Student Body Organization (2025–2026)
-- Municipality of San Fabian – Public Information Office (May–June 2026)
-- On-the-Job Training at San Fabian PIO (Completed)
+The following Git commands were used:
 
----
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Knarval/Kimberly-Profile.git
+git branch -M main
+git push -u origin main
 
-## 📜 Certifications Included
-- Internship Orientation Program (April 2026)
-- Digital Literacy Training – DICT
-- Scrum Foundation Professional Certification (CertiProf)
-- Cisco Certifications (Python, AI, Data Science)
 
----
+AI Tool I Used
 
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- Git & GitHub Version Control
-- GitHub Pages Hosting
-- AI Assistance (ChatGPT)
+ChatGPT (OpenAI) – Used for generating HTML/CSS code, structuring the website, creating README documentation, and guiding Git/GitHub version control steps.
 
----
-
-## 🚀 Deployment
-This website is hosted using GitHub Pages.
-
-Live Site:
-```
-https://yourusername.github.io/Kimberly-Profile/
-```
-
----
-
-## 🎯 Purpose of the Project
-This project demonstrates my ability to:
-- Build a structured personal website
-- Use Git and GitHub for version control
-- Apply basic web development skills
-- Integrate AI tools for content improvement
-- Deploy a live website using GitHub Pages
-
----
-
-## 📌 Note
-This project is part of my academic requirement and continuously improved for learning purposes.
