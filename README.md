@@ -1,51 +1,125 @@
-👩‍💻 Project Title
+# 💻 Kimberly S. Narval | Technology Portfolio
 
-Personal Profile Website using HTML, CSS, Git, and GitHub Pages
+## 📌 Project Overview
 
-📖 Project Description
+This project is my personal technology portfolio website created as part of our course requirement. It showcases my educational background, technical skills, certifications, projects, and experience in a professional and responsive web portfolio.
 
-This project is a personal profile website created using web development tools and version control system (Git). It showcases personal information, skills, education, and contact details. The project is developed using HTML and CSS, and managed using Git (.git version control). It is hosted and published using GitHub Pages.
+The website is developed using modern front-end web technologies and is version-controlled using Git and hosted through GitHub Pages.
 
-🎯 Objective
+---
 
-To create a personal profile website using any AI tools or programming language and apply:
+## 🌐 Live Website
 
-Git version control (.git)
-GitHub repository management
-GitHub Pages hosting
-🛠️ Tools & Technologies Used
-HTML5 (Structure)
-CSS3 (Design & Styling)
-Git (Version Control System)
-GitHub (Repository Hosting)
-GitHub Pages (Website Hosting)
-AI Assistance (for code generation and design support)
-📂 Project Structure
+https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/
+
+> Replace the link above with your published GitHub Pages URL.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern Technology-Inspired UI
+- 📱 Fully Responsive Design
+- 💻 Professional Portfolio Layout
+- 👩 About Me Section
+- 🎓 Education Timeline
+- 🛠 Technical Skills
+- 📜 Certifications
+- 🚀 Projects Showcase
+- 💼 Experience Section
+- 📧 Functional Contact Form using FormSubmit
+- 🌐 Social Media Links
+- ⌨️ Typing Animation
+- ✨ Scroll Reveal Animation
+- ⬆️ Scroll-to-Top Button
+- 🔗 Git Version Control
+- 🌍 Hosted on GitHub Pages
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Git
+- GitHub
+- GitHub Pages
+- FormSubmit (Email Service)
+
+---
+
+## 🤖 AI Tools Used
+
+The following AI tools were used to assist in planning, improving, and developing this portfolio:
+
+- ChatGPT (OpenAI)
+  - Assisted in website design
+  - Generated and improved HTML structure
+  - Designed the CSS technology theme
+  - Developed JavaScript functionality
+  - Helped implement the contact form
+  - Assisted with Git and GitHub version control
+  - Improved project documentation
+
+---
+
+## 📂 Project Structure
+
+```
 Kimberly-Profile/
 │
-├── index.html        # Main webpage
-├── style.css         # Design and layout
-├── kim.png           # Profile picture
-└── README.md         # Project documentation
-🌐 Website Features
-Personal introduction section
-Skills and abilities display
-Educational background
-Contact information
-Clean and simple responsive layout
-🔧 Git Version Control Process Used
+├── index.html
+├── style.css
+├── script.js
+├── kim.png
+└── README.md
+```
 
-The following Git commands were used:
+---
 
+## 📧 Contact
+
+Email:
+**syzein401@gmail.com**
+
+GitHub:
+https://github.com/Knarval
+
+---
+
+## 🚀 Deployment
+
+This website is deployed using **GitHub Pages**.
+
+---
+
+## 📚 Version Control
+
+This project uses **Git** for version control.
+
+Example commands used during development:
+
+```bash
 git init
 git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/Knarval/Kimberly-Profile.git
+git commit -m "Initial Commit"
 git branch -M main
+git remote add origin https://github.com/Knarval/Kimberly-Profile.git
 git push -u origin main
+```
 
+---
 
-AI Tool I Used
+## 📄 Author
 
-ChatGPT (OpenAI) – Used for generating HTML/CSS code, structuring the website, creating README documentation, and guiding Git/GitHub version control steps.
+**Kimberly S. Narval**
 
+Bachelor of Science in Computer Science
+
+Don Mariano Marcos Memorial State University
+
+---
+
+© 2026 Kimberly S. Narval. All Rights Reserved.
